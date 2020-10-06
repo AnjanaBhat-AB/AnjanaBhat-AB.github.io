@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>RESUME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="allcss.css" />
+    
+</head>
+<body >
+    <header>
+        <section class="head">
+        <div style="clear:both">
+            
+            <img style="float:left"  class="flogo"src="pics/pic.jpg" />
+            <form style="float:left">
+                <h1 class="main">
+              ANJANA
+             </h1>
+             <p class="para">
+                  Email : anjuanjana799@gmail.com <br><br>
+                 
+             </p>
+         </form> 
+          
+        </div></section><br />
+       <div style="clear:both">
+        <nav  style="float:none">
+         <ul class="ull">
+             <li class="lli"><a class="navb" href="aboutme.html">About Me</a></li>
+             <li class="lli">  <a class="navb" href="qualification.html">qualifications</a></li>
+             <li class="lli">  <a class="navb" href="skill.html">Skills</a></li>
+             <li class="lli">  <a class="navb" href="contact.html">Contact</a></li> 
+             </ul>
+        </nav>
+    </div>
+       
+</header>
+<section>
+    <br><br>
+    <p class="adr"><br />MY ADDRESS:<br>"Shri Manjunatha", D.No:1-4-47D1,<br /> Gundibailu, Post-Kunjibettu,<br> Udupi-576102<br /> </p>
+    <form id="reset">
+        <table style="margin-left:20%" class="tbl">
+            <tr>
+                <td>
+                    <h3 style="text-align:center;color:darkblue">Contact Me</h3>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label class="lbl">Name</label><label style="color:red">*</label><br /><input class="ip" type="text" placeholder="Full Name" /></td>
+            </tr>
+            <tr>
+                <td><label class="lbl">Email-id</label><label style="color:red">*</label><br /><input class="ip" type="email" placeholder="abc@gmail.com" /></td>
+            </tr>
+            <tr>
+                <td><label class="lbl">Message</label><label style="color:red">*</label><br />
+                   <textarea class="txt" style="margin-left:20%" name="issue" rows="5"  placeholder="text your message here"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong><input class="btn3" type="submit" value="submit" onclick="reset_func()" /></strong>
+                </td>
+            </tr>
+        </table>
+                </form>
+            <script>
+                function reset_func() {
+                    document.getElementById("reset").reset();
+                }
+            </script>
+</section>
+<br><footer>
+  <p class="foot" style="text-align: center;background-color:grey;"> <br> Copyright &copy 2020<br><br></p>
+</footer>
+</body>
+</html>
